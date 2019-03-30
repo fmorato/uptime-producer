@@ -31,3 +31,9 @@ Clone the repository from github:
 Start the producer.
 
     producer --topic TOPIC --kafka KAFKA_URL
+
+# Deploying
+
+On this screen cast I install both producer and consumer on a remote host as well as create and start the services with systemd.
+
+[![asciicast](https://asciinema.org/a/NZdX5SGFzST3LU9XvVwyoE846.svg)](https://asciinema.org/a/NZdX5SGFzST3LU9XvVwyoE846?speed=2&autoplay=1)

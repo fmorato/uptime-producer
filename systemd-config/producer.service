@@ -1,0 +1,15 @@
+[Unit]
+Description=uptime producer
+After=syslog.target
+After=networking.target
+
+[Service]
+ExecStart=/usr/bin/python3 /usr/local/bin/producer
+EnvironmentFile=/path/to/producer.env
+User=user
+Group=user
+Restart=on-failure
+StandardError=syslog
+
+[Install]
+WantedBy=multi-user.target
